@@ -1,0 +1,37 @@
+:root {
+  /* fonts */
+  --title-font-family: 'Poppins', sans-serif;
+  --text-font-family: 'Figtree', sans-serif;
+  --alphabet-font-family: 'Inter', sans-serif;
+  /* colors */
+  --primary-title: #050812;
+  --primary-text: #1c212e;
+  --level-text: #5d6374;
+  --tags-first-text: #1a41c2;
+  --tags-second-text: #903413;
+  --tags-third-text: #263207;
+
+  --burger-color: #2d58e3;
+
+  --primary-bg: #f5f5fc;
+  --header-bg: #ffffff;
+  --level-first-line-bg: #fceee9;
+  --level-second-line-bg: #e9edfc;
+  --level-third-line-bg: #e0f4aa;
+  --tags-second-bg: #fae0d7;
+  --progress-alphabet-bg-active: #bec5d8;
+  --level-second-line-border: #d7dffa;
+  --level-third-line-border: #d1ee81;
+
+  --link-border: #abb1c5;
+  --footer-border: #9ca3b5;
+
+  --hover-icon: brightness(0) invert(28%) sepia(78%) saturate(3802%) hue-rotate(236deg)
+    brightness(98%) contrast(97%);
+
+  --header-active: #e3e3e8;
+
+  --progress-circle-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  --block-studies-box-shadow: 0px 1px 8px 0px rgba(215, 223, 250, 0.3);
+  --published-date-select-box-shadow: 0px 2px 2px 0px var(--header-active);
+}

@@ -1,0 +1,76 @@
+[class*='--cover'] img,
+[class*='--cover'] svg {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+}
+[class*='--contain'] img,
+[class*='--contain'] svg {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: contain;
+}
+.title {
+  font-family: var(--title-font-family);
+  color: var(--primary-title);
+  font-weight: 600;
+}
+.link {
+  font-weight: 500;
+  line-height: 1.25; /* 125% */
+  padding-block: 0.9375rem; /* 15/16 */
+  padding-inline: 1.4375rem; /* 23/16 */
+  border-radius: 1rem; /* 16/16 */
+}
+.link--black {
+  color: var(--header-bg);
+  background: var(--primary-title);
+  border: 0.0625rem solid var(--primary-title);
+  transition: color 0.3s ease, background 0.3s ease, border 0.3s ease;
+}
+.link--white {
+  position: relative;
+  color: var(--primary-title);
+  border: 0.0625rem solid var(--link-border);
+  background: var(--header-bg);
+  overflow: hidden;
+  transition: color 0.3s ease 0.3s;
+  z-index: 1;
+}
+.link--white::before {
+  content: '';
+  position: absolute;
+  left: -110%;
+  bottom: 0;
+  width: calc(100% + 0.125rem);
+  height: calc(100% + 0.125rem);
+  background: var(--primary-title);
+  transform: translateY(-80%);
+  transition: left 0.3s ease 0.6s, transform 0.3s ease 0.3s;
+  z-index: -1;
+}
+.link--white:hover {
+  color: var(--header-bg);
+}
+.link--white:hover::before {
+  left: 0%;
+  transform: translateY(0%);
+  transition: left 0.3s ease 0s, transform 0.3s ease 0.3s;
+}
+@media (any-hover: hover) {
+  [class*='--img-hover'] img {
+    transition: filter 0.3s ease;
+  }
+
+  [class*='--img-hover']:hover img {
+    filter: var(--hover-icon);
+  }
+  [class*='--img-hover']:active img {
+    filter: none;
+  }
+  .link--black:hover {
+    color: var(--primary-title);
+    border: 0.0625rem solid var(--link-border);
+    background: var(--header-bg);
+  }
+}

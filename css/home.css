@@ -234,12 +234,12 @@
   background: var(--header-active);
   cursor: pointer;
 }
-.lessons .progress__active {
+.lessons .lessons__active {
   color: var(--primary-text);
   background: var(--progress-alphabet-bg-active);
   position: relative;
 }
-.lessons .progress__active:after {
+.lessons .lessons__active:after {
   content: '';
   position: absolute;
   inset-block-end: -0.75rem;
@@ -253,7 +253,7 @@
   opacity: 0;
   transition: visibility 0.3s ease, opacity 0.3s ease;
 }
-.progress__info {
+.lessons__info {
   position: absolute;
   z-index: 1;
   inset-block-start: 2.25rem;
@@ -268,15 +268,15 @@
   opacity: 0;
   transition: visibility 0.3s ease, opacity 0.3s ease;
 }
-.lessons .progress__active:hover:after,
-.lessons .progress__active:hover .progress__info {
+.lessons .lessons__active:hover:after,
+.lessons .lessons__active:hover .lessons__info {
   visibility: visible;
   opacity: 1;
 }
-.progress__title {
+.lessons__title {
   margin-block-end: 0.25rem; /* 4/16 */
 }
-.progress__text {
+.lessons__text {
   font-family: var(--text-font-family);
   font-size: 1rem; /* 16/16 */
   font-weight: 400;

@@ -123,7 +123,7 @@
 }
 
 .studies {
-  padding: 3.125rem; /* 50/16 */
+  padding-block: 3.125rem; /* 50/16 */
 }
 .studies__title {
   text-align: center;

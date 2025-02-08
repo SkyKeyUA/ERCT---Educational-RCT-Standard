@@ -1,5 +1,3 @@
-.footer {
-}
 .footer__body {
   border-top: 0.0625rem solid var(--footer-border);
   padding-block: 1.5rem 2.5rem; /* 40/16 */

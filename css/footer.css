@@ -1,8 +1,8 @@
 .footer {
 }
-.footer__container {
+.footer__body {
   border-top: 0.0625rem solid var(--footer-border);
-  padding-block: 1.5rem; /* 24/16 */
+  padding-block: 1.5rem 2.5rem; /* 40/16 */
   display: flex;
   column-gap: 3rem; /* 48/16 */
 }
@@ -13,4 +13,10 @@
 .footer__line {
   inline-size: 12.5rem; /* 200/16 */
   aspect-ratio: 200 / 132;
+}
+@media (min-width: 47.9988em) {
+  .footer__container {
+    max-inline-size: 86.25rem; /* 1380/16 */
+    padding-inline: 2.5rem; /* 40/16 */
+  }
 }

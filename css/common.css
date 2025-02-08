@@ -18,9 +18,10 @@
 .link {
   font-weight: 500;
   line-height: 1.25; /* 125% */
-  padding-block: 0.9375rem; /* 15/16 */
-  padding-inline: 1.4375rem; /* 23/16 */
+  padding-block: 1.0625rem; /* 17/16 */
+  padding-inline: 1.9375rem; /* 31/16 */
   border-radius: 1rem; /* 16/16 */
+  text-align: center;
 }
 .link--black {
   color: var(--header-bg);
@@ -72,5 +73,10 @@
     color: var(--primary-title);
     border: 0.0625rem solid var(--link-border);
     background: var(--header-bg);
+  }
+}
+@media (max-width: 1071.98px) {
+  .link {
+    min-inline-size: 15.9375rem; /* 255/16 */
   }
 }

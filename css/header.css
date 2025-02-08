@@ -45,6 +45,10 @@
   }
 }
 @media (min-width: 47.9988em) {
+  .header__container {
+    max-inline-size: 86.25rem; /* 1380/16 */
+    padding-inline: 2.5rem; /* 40/16 */
+  }
   .menu ul a {
     border-radius: 0.75em; /* 12/16 */
   }

@@ -577,6 +577,9 @@
     font-size: 1.5rem; /* 24/16 */
     line-height: 1.333; /* 133.333% */
   }
+  .lessons__info {
+    inset-inline-start: -8rem;
+  }
 }
 @media (max-width: 374.98px) {
   .framework__links {
@@ -587,5 +590,8 @@
   }
   .block-studies__bottom {
     column-gap: 0.5rem; /* 8/16 */
+  }
+  .lessons__info {
+    inline-size: 12rem;
   }
 }

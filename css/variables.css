@@ -2,7 +2,7 @@
   /* fonts */
   --title-font-family: 'Poppins', sans-serif;
   --text-font-family: 'Figtree', sans-serif;
-  --alphabet-font-family: 'Inter', sans-serif;
+  --date-font-family: 'Inter', sans-serif;
   /* colors */
   --primary-title: #050812;
   --primary-text: #1c212e;
@@ -10,6 +10,10 @@
   --tags-first-text: #1a41c2;
   --tags-second-text: #903413;
   --tags-third-text: #263207;
+
+  --homework-page-subtitle-text: #1a1a1a;
+  --homework-page-published-date-text: #666;
+  --homework-page-link-text: #295bff;
 
   --burger-color: #2d58e3;
 
@@ -25,9 +29,6 @@
 
   --link-border: #abb1c5;
   --footer-border: #9ca3b5;
-
-  --hover-icon: brightness(0) invert(28%) sepia(78%) saturate(3802%) hue-rotate(236deg)
-    brightness(98%) contrast(97%);
 
   --header-active: #e3e3e8;
 

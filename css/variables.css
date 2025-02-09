@@ -42,6 +42,7 @@
   --progress-circle-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   --block-studies-box-shadow: 0px 1px 8px 0px rgba(215, 223, 250, 0.3);
   --published-date-select-box-shadow: 0px 2px 2px 0px var(--header-active);
+  --criteria-details-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
 
   --img-filter: brightness(0) invert(1);
 }

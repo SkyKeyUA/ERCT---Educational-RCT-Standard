@@ -618,4 +618,7 @@
   .lessons__info {
     inline-size: 12rem;
   }
+  .suggest__title br {
+    display: none;
+  }
 }

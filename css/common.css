@@ -27,14 +27,11 @@
   color: var(--header-bg);
   background: var(--primary-title);
   border: 0.0625rem solid var(--primary-title);
-  transition: color 0.3s ease, background 0.3s ease, border 0.3s ease;
 }
 .link--white {
   color: var(--primary-title);
   border: 0.0625rem solid var(--link-border);
   background: var(--header-bg);
-  transition: color 0.3s ease 0.3s;
-  z-index: 1;
 }
 @media (max-width: 1071.98px) {
   .link {

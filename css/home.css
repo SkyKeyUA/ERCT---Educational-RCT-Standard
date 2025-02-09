@@ -466,6 +466,13 @@
   color: var(--level-text);
   line-height: 1.25; /* 125% */
 }
+@media (any-hover: hover) {
+  .lessons .lessons__active:hover:after,
+  .lessons .lessons__active:hover .lessons__info {
+    visibility: visible;
+    opacity: 1;
+  }
+}
 @media (min-width: 1071.98px) {
   .hero__title br {
     display: none;
@@ -490,11 +497,6 @@
   .suggest__container {
     max-inline-size: 75.5625rem; /* 1209/16 */
     padding-inline: 2.5rem; /* 40/16 */
-  }
-  .lessons .lessons__active:hover:after,
-  .lessons .lessons__active:hover .lessons__info {
-    visibility: visible;
-    opacity: 1;
   }
 }
 @media (min-width: 374.98px) {

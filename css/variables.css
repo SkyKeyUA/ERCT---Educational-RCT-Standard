@@ -14,6 +14,8 @@
   --homework-page-subtitle-text: #1a1a1a;
   --homework-page-published-date-text: #666;
   --homework-page-link-text: #295bff;
+  --homework-page-stage-title: #333333;
+  --homework-page-stage-text: #6d717f;
 
   --burger-color: #2d58e3;
 
@@ -27,6 +29,10 @@
   --level-second-line-border: #d7dffa;
   --level-third-line-border: #d1ee81;
 
+  --active-check-icon-bg: #95c21a;
+
+  --homework-page-criteria-border: #d9d9d9;
+
   --link-border: #abb1c5;
   --footer-border: #9ca3b5;
 
@@ -36,4 +42,6 @@
   --progress-circle-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   --block-studies-box-shadow: 0px 1px 8px 0px rgba(215, 223, 250, 0.3);
   --published-date-select-box-shadow: 0px 2px 2px 0px var(--header-active);
+
+  --img-filter: brightness(0) invert(1);
 }

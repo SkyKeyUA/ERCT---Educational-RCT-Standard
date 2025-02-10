@@ -456,12 +456,12 @@
     opacity: 1;
   }
 }
-@media (min-width: 1071.98px) {
+@media (min-width: 66.9988em) {
   .suggest__container {
     grid-template-columns: 528fr 462fr;
   }
 }
-@media (min-width: 767.98px) {
+@media (min-width: 47.9988em) {
   .stage__letter {
     grid-row: span 2;
     align-self: start;
@@ -474,12 +474,12 @@
     padding-inline: 2.5rem; /* 40/16 */
   }
 }
-@media (min-width: 389.98px) {
+@media (min-width: 24.3738em) {
   .progress__body {
     grid-template-columns: minmax(6.25rem, 15rem) minmax(15.125rem, 22.5rem); /* 360/16 */
   }
 }
-@media (max-width: 1071.98px) and (min-width: 767.98px) {
+@media (max-width: 66.9988em) and (min-width: 47.9988em) {
   .hero {
     padding-block: 1rem 0.75rem; /* 12/16 */
   }
@@ -491,7 +491,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 1071.98px) {
+@media (max-width: 66.9988em) {
   .evaluation {
     padding-block: 0.75rem 2.5rem; /* 40/16 */
   }
@@ -526,7 +526,7 @@
     text-align: center;
   }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 47.9988em) {
   .hero__title {
     font-size: 1.5rem; /* 24/16 */
     line-height: 1.333; /* 133.333% */
@@ -578,7 +578,7 @@
     line-height: 1.333; /* 133.333% */
   }
 }
-@media (max-width: 479.98px) {
+@media (max-width: 29.9988em) {
   .lessons__info {
     inset-inline-start: -8rem;
   }
@@ -594,7 +594,7 @@
     line-height: 1.333; /* 133.333% */
   }
 }
-@media (max-width: 389.98px) {
+@media (max-width: 24.3738em) {
   .lessons__info {
     inline-size: 12rem;
   }

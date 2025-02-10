@@ -33,7 +33,7 @@
   border: 0.0625rem solid var(--link-border);
   background: var(--header-bg);
 }
-@media (max-width: 1071.98px) {
+@media (max-width: 66.9988em) {
   .link {
     min-inline-size: 15.9375rem; /* 255/16 */
   }
